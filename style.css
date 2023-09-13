@@ -1,0 +1,112 @@
+#dt{
+    background-color: red;
+    display: inline;
+    padding: 15px;
+    height: 50px;
+}
+#dd{
+    background-color: aqua;
+    display: inline-block;
+    padding: 15px;
+    height: 50px;
+}
+.da{
+    width: 50%;
+    height: 150px;
+    border: 6px ridge green;
+    line-height: 150px;
+    margin: auto;
+    text-align: center;
+}
+.ad{
+    width: 50%;
+    height: 150px;
+    border: 6px ridge grey;
+    position: relative;
+}
+.s-div{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+img{
+    width: 30%;
+    margin: auto;
+    height: 30%;
+    display: block;
+}
+div #p{
+    color: blueviolet;
+    border: 6px solid ;
+}
+.d>p{
+    color: skyblue;
+    border: 6px solid indigo;
+}
+.d+p{
+    background-color: darkcyan;
+}
+.d~p{
+    color: azure;
+}
+.d2 p{
+    color: violet;
+    border: 6px solid ;
+}
+a{
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px ridge grey;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: aquamarine;
+    padding: 20px;
+}
+a:link{
+    color: blue;
+    opacity: 0.3;
+}
+a:visited{
+    background-color: orange;
+}
+a:hover{
+    opacity: 1;
+}
+a:active{
+    background-color: black;
+}
+.de{
+    height: 200px;
+    width: 200px;
+    border: 2px solid purple;
+    margin: auto;
+}
+div.de:hover{
+    border: 5px dotted red;
+}
+.ded{
+    height: 400px;
+    width: 600px;
+    border: 2px solid purple;
+}
+div.ded p:first-child{
+    color: brown;
+}
+div.ded:first-child p{
+    color: brown;
+}
+div.ded:hover{
+    color: aqua;
+}
+#d{
+    color: black;
+}
+q:lang(no){
+    quotes:"@" "~";
+}
